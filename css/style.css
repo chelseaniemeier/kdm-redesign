@@ -1,0 +1,115 @@
+
+
+/*************
+main styles
+*************/
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    padding-bottom: none;
+    margin: auto;
+}
+
+
+
+/*************
+footer
+*************/
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #1e2530;
+    color: #fff;
+  }
+
+/*************
+footer navigation
+*************/
+
+  .footer-nav li {
+      /* display: flex inline; */
+      padding-right: 1.5em;
+      font-weight: bold;
+      font-size: 2em;
+      line-height: 1em;
+      color: #fff;
+      letter-spacing: 1px;
+      padding: 5px;
+  }
+
+
+  /*************
+footer e-mail newsletter sign up
+*************/
+
+  /* .signup-flex {
+        display: inline-flex;
+  } */
+
+
+  /* .footer-signup form {
+      width: 80%;
+  }
+
+  .footer-signup button {
+  width: 20%;
+} */
+
+
+
+  /*************
+footer social media links
+*************/
+
+  .footer-social li {
+    display: inline-block;
+    padding-right: 1.5em;
+    line-height: 1.5em;
+}
+
+.footer-social p {
+    font-weight: bold;
+    letter-spacing: 0.25em;
+}
+
+.copyright p {
+    font-size: 0.75em;
+    color: #fff;
+}
+
+/* unvisited link */
+.footer a:link {
+    color: #f18a20;
+}
+
+/* visited link */
+.footer a:visited {
+    color: #f18a20;
+}
+
+/* mouse over link */
+.footer a:hover {
+    font-weight: bold;
+    color: #fff;
+}
+
+/* selected link */
+.footer a:active {
+    color: #f18a20;
+}
