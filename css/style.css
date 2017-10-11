@@ -6,6 +6,13 @@ main styles
 
 * {
     font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
@@ -23,16 +30,76 @@ h3 {
 }
 
 
+/*************
+Section Get Involved & Rent the Museum
+*************/
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 200px; */
+    /* justify-content: space-around; */
+    align-items: stretch;
+    margin: 5px auto 40px;
+    background: #000;
+    color: #fff;
+}
+
+.container3item {
+    flex-grow: 1;
+    flex-basis: 50%;
+    height: 200px;
+}
+
+.involved1 {
+    flex-grow: 2;
+    object-fit: scale-down;
+}
+
+/* .involved1 img {
+    background-size: cover;
+    width: auto;
+} */
+
+.involved2 { 
+    flex-grow: 1;
+    color: #fff;
+	padding: 15px;
+    background: #f18a20;
+    /* font-size: 2em; */
+}
+
+.rent1 {
+    flex-grow: 1;
+    color: #fff;
+	padding: 15px;
+	background: #00A6FF;
+}
+
+/* .rent1 img {
+    background-size: cover;
+    width: 100%;
+} */
+
+.rent2 {
+    flex-grow: 2;
+    color: #000;
+}
+
+/*************
+END OF -- Section Get Involved & Rent the Museum
+*************/
+
+
 
 /*************
 footer
 *************/
 
 .footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
     background-color: #1e2530;
     color: #fff;
@@ -43,7 +110,6 @@ footer navigation
 *************/
 
   .footer-nav li {
-      /* display: flex inline; */
       padding-right: 1.5em;
       font-weight: bold;
       font-size: 2em;
@@ -57,6 +123,17 @@ footer navigation
   /*************
 footer e-mail newsletter sign up
 *************/
+
+.footer-signup {
+    display: flex;
+    height: 50px;
+    background-color: tomato;
+}
+
+.signup-item {
+    flex-grow: 1
+}
+
 
   /* .signup-flex {
         display: inline-flex;
