@@ -31,42 +31,63 @@ h3 {
 
 
 /*************
+Header Navigation
+*************/
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: center;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+
+
+/*************
 Section Get Involved & Rent the Museum
 *************/
 
 .container3 {
     display: flex;
     flex-wrap: wrap;
-    /* height: 200px; */
-    /* justify-content: space-around; */
+    justify-content: space-around;
     align-items: stretch;
-    margin: 5px auto 40px;
+    margin: 5px 0 5px;
     background: #000;
     color: #fff;
 }
 
 .container3item {
-    flex-grow: 1;
-    flex-basis: 50%;
-    height: 200px;
+    flex: 1;
+    font-size: 1.25em;
+}
+
+.container3item p {
+    font-size: 2em;
 }
 
 .involved1 {
     flex-grow: 2;
-    object-fit: scale-down;
-}
-
-/* .involved1 img {
+    min-width: 25%;
+    background: linear-gradient(rgba(225, 146, 96, 0.33), rgba(225, 146, 96, 0.33)),
+    rgba(233, 116, 39, 0.55) url(../img/Container3-GetInvolved.jpg) center no-repeat;
     background-size: cover;
-    width: auto;
-} */
+}
 
 .involved2 { 
     flex-grow: 1;
     color: #fff;
 	padding: 15px;
     background: #f18a20;
-    /* font-size: 2em; */
 }
 
 .rent1 {
@@ -76,19 +97,62 @@ Section Get Involved & Rent the Museum
 	background: #00A6FF;
 }
 
-/* .rent1 img {
-    background-size: cover;
-    width: 100%;
-} */
-
 .rent2 {
     flex-grow: 2;
-    color: #000;
+    min-width: 25%;
+    background: linear-gradient(rgba(38, 152, 226, 0.33), rgba(38, 152, 226, 0.33)),
+    rgba(38, 152, 226, 0.33) url(../img/Container3-RentTheMuseum.jpg) center no-repeat;
+    background-size: cover;
 }
 
 /*************
 END OF -- Section Get Involved & Rent the Museum
 *************/
+
+
+
+/*************
+supporters
+*************/
+
+#supporters {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: #fff;
+    margin: 4% auto 4%;
+    width: 100%;
+}
+
+#supporters h3 {
+    flex-grow: 1;
+    font-size: 1.75em;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom: 1%;
+}
+
+#supporters p {
+    font-size: .9em;
+    margin: 0 auto 0;
+    padding: 2% 10% 2%;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.25em;
+}
+
+.sponsor-list-item {
+    flex: 1 150px;
+    margin: 10px auto 10px;
+    padding: 0 1em 0;
+}
+
+.sponsor-list-item img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
@@ -104,6 +168,7 @@ footer
     background-color: #1e2530;
     color: #fff;
   }
+
 
 /*************
 footer navigation
