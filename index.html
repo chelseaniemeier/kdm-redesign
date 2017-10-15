@@ -92,19 +92,39 @@
             </p>
         </div>
 
-        <div>
-           <h3>E-mail Newsletter Sign-up</h3>
+
+
+<!-- Sign up for E-newsletter -->
+
+
+        <div class="newsletter-signup">
+            <form name="newsletterEmail" action="#" onsubmit="return validateForm()" method="post">
+                <p>
+                  <label for="email">E-mail Newsletter Sign-Up</label>
+                  <input type="email" id="email" name="email" placeholder="joesmith@email.com">
+                  <span>E-mail must be filled out.</span>
+                </p>
+                <p>
+                  <input type="submit" id="submit-email" value="Submit">
+                </p>
+                </form>
+                
+        
+            <!--Old Sign-up 
+                
+                
            <form class="footer-signup" method="post" class="contact">
             
                       <div class="signup-item">
-                        <!-- <label for="email-field"></label> -->
                         <input type="email" placeholder="jsmith@gmail.com">
                       </div>
             
                       <div class="signup-item">
                         <button type="submit">Sign-up</button>
                       </div>
-            </form>
+            </form> -->
+
+
         </div>
 
         <div class="footer-social">
@@ -130,6 +150,7 @@
 <!-- /Footer -->
 
 <!-- Insert JavaScript Here -->
+<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/app.js"></script>
 
 </body>
