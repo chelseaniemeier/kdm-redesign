@@ -15,7 +15,8 @@
     <link rel="apple-touch-icon" href="icon.png">
 
     <!-- Insert Vendor Style Sheets Here-->
-    
+   
+    <script src="https://use.fontawesome.com/48bce8a39c.js"></script>
 
     <!-- Insert Style Sheets Here-->
     <link type="text/css" rel="stylesheet" href="css/normalize.css" />
@@ -25,29 +26,48 @@
     <!-- Insert Google Fonts Here -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700" rel="stylesheet">
 
-    <script src="https://use.fontawesome.com/48bce8a39c.js"></script>
-
+   
+    
 </head>
 
 <body class="home">
 
 <!-- Header -->
 
-    <header class="main-header">
-        <a class="site-logo" href="/">
-            <img src="img/logo-kdmvertical.png" alt="Kentucky Derby Museum Logo">
-        </a>
-     
-        <ul class="nav headeritem">
-            <li class="ham-menu"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
-            <li><a href="#">Plan Your Visit</a></li>
-            <li><a href="#">Rent the Museum</a></li>
-            <li><a href="#">Shop Online</a></li>
-        </ul>
-    </header>    
+    <i class="fa fa-bars fa-2x toggle_menu opacity_one"></i>
+
+    <div class="sidebar_menu">
+        <i class="fa fa-times fa-2x menu_exit"></i>
+
+        <div class="menu_container">
+            <div class="menu_1 menu_item"><h1>Plan a Visit</h1></div>
+            <div class="menu_2 menu_item"><h1>Rent the Museum</h1></div>
+            <div class="menu_3 menu_item"><h1>Shop Online</h1></div>
+            <div class="menu_4 menu_item"><h1>Contact Form</h1></div>
+            <div class="menu_5 menu_item">
+                <p>704 Central Avenue
+                   <br>Louisville, KY 40208
+                   <br>(502) 637-1111 (map) 
+                   <br>info@derbymuseum.org
+                </p>
+            </div>
+            <div class="menu_6 menu_item">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-flickr" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-yelp" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-tripadvisor" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
 
 <!-- /Header -->
-
 
 
 
@@ -63,15 +83,17 @@
 
 <!--Events Section and Exhibit Feature -->
 
-<div class="container2">
-    
-        <div class="eventCarousel container2item overlayorange"></div>
-        <div class="exhibitFeature container2item">
-            <h2>Man o' War: The Legacy</h2>
-            <p>Feature Exhibit</p>
-        </div>
-    
-</div>
+    <div class="container2">
+        
+            <div class="eventCarousel container2item">
+                <p>EVENT SECTION</p>
+            </div>
+            <div class="exhibitFeature container2item">
+                <h2>Man o' War: The Legacy</h2>
+                <p>Feature Exhibit</p>
+            </div>
+        
+    </div>
 
 <!--End of Events Section and Exhibit Feature -->
 
@@ -80,44 +102,51 @@
 
 <!-- Get Involved / Rent the Museum -->
 
-<div class="container3">
-    
-        <div class="involved1 container3item overlayorange"></div>
-        <div class="involved2 container3item"><p>Get Involved</p></div>
-        <div class="rent1 container3item"><p>Rent the Museum</p></div>
-        <div class="rent2 container3item overlayblue"></div>
-    
-</div>
+    <div class="container3">
+        
+            <div class="involved1 container3item overlayorange"></div>
+            <div class="involved2 container3item"><p>Get Involved</p></div>
+            <div class="rent1 container3item"><p>Rent the Museum</p></div>
+            <div class="rent2 container3item overlayblue"></div>
+        
+    </div>
 
 <!-- End of Get Involved / Rent the Museum -->
 
 
 <!-- Supporters -->
-<div id="supporters">
-    <h3>Our Supporters</h3>
-    <p>The Kentucky Derby Museum is a 501(c)3 non-profit organization that continues to engage, educate, and excite everyone about the extraordinary experience that is the Kentucky Derby thanks to our Museum visitors and community supporters, including the following:</p>
-    
-    <div class="sponsor-list-item"><img src="img/supporter-churchill-logo.png" alt="Churchill Downs Logo"></div>
-    <div class="sponsor-list-item"><img src="img/supporter-bf-logo.png" alt="Brown Forman Logo"></div>
-    <div class="sponsor-list-item"><img src="img/supporter-kroger-logo.png" alt="Kroger Logo"></div>
-    <div class="sponsor-list-item"><img src="img/supporter-sybank-logo.png" alt="Stock Yards Bank Logo"></div>
-    
-</div>
+    <div id="supporters">
+        <h3>Our Supporters</h3>
+        <p>The Kentucky Derby Museum is a 501(c)3 non-profit organization that continues to engage, educate, and excite everyone about the extraordinary experience that is the Kentucky Derby thanks to our Museum visitors and community supporters, including the following:</p>
+        
+        <div class="sponsor-list-item"><img src="img/supporter-churchill-logo.png" alt="Churchill Downs Logo"></div>
+        <div class="sponsor-list-item"><img src="img/supporter-bf-logo.png" alt="Brown Forman Logo"></div>
+        <div class="sponsor-list-item"><img src="img/supporter-kroger-logo.png" alt="Kroger Logo"></div>
+        <div class="sponsor-list-item"><img src="img/supporter-sybank-logo.png" alt="Stock Yards Bank Logo"></div>
+        
+    </div>
 
 
 <!-- Footer -->
 
 <div>
     <footer class="footer">
-        <div class="footer-nav">
+
+        <div class="footer-logo footer-item1"> 
+           <a href="#">
+             <img src="img/logo-kdmvertical.png" alt="Kentucky Derby Museum Logo">
+           </a> 
+        </div>
+
+        <div class="footer-nav footer-item2">
             <ul>
-                <li>Plan Visit</li>
-                <li>Shop</li>
-                <li>Contact Us</li>
+                <a href="#"><li>Plan Visit</li></a>
+                <a href="#"><li>Shop</li></a>
+                <a href="#"><li>Contact Us</li></a>
             </ul>
         </div>
 
-        <div class="footer-location">
+        <div class="footer-location footer-item1">
             <a href="https://goo.gl/maps/Q5LRkqaV4A62" target="_blank">704 Central Avenue<br>
                 Louisville, KY 40208<br></a>
             <a href="tel:502-637-1111">(502) 637-1111</a>
@@ -125,11 +154,9 @@
         </div>
 
 
-
 <!-- Sign up for E-newsletter -->
 
-
-        <div class="newsletter-signup">
+        <div class="newsletter-signup footer-item3">
             <form name="newsletterEmail" action="#" onsubmit="return validateForm()" method="post">
                 <p>
                   <label for="email">E-mail Newsletter Sign-Up</label>
@@ -139,27 +166,10 @@
                 <p>
                   <input type="submit" id="submit-email" value="Submit">
                 </p>
-                </form>
-                
-        
-            <!--Old Sign-up 
-                
-                
-           <form class="footer-signup" method="post" class="contact">
-            
-                      <div class="signup-item">
-                        <input type="email" placeholder="jsmith@gmail.com">
-                      </div>
-            
-                      <div class="signup-item">
-                        <button type="submit">Sign-up</button>
-                      </div>
-            </form> -->
-
-
+            </form>
         </div>
 
-        <div class="footer-social">
+        <div class="footer-social footer-item3">
             <h3>Connect With Us</h3>
             <ul>
                 <li><a href="https://www.facebook.com/derbymuseum/" target="_blank">FACEBOOK</a></li>
@@ -172,7 +182,7 @@
             </ul>
         </div>
 
-        <div class="copyright">
+        <div class="copyright footer-item3">
             <p>&copy; COPYRIGHT KENTUCKY DERBY MUSEUM 2017</p>
         </div>
 
@@ -180,6 +190,7 @@
 </div>
 
 <!-- /Footer -->
+
 
 <!-- Insert JavaScript Here -->
 <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>

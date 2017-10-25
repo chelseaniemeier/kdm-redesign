@@ -52,9 +52,10 @@ Video Wrapper
 .wrapper-video {
     width: 100%;
     min-height: 300px;
-    margin: 10px 0;
+    margin: 0 0 10px;
     padding: 10px 20px;
     background: #f4f7f8;
+    position: relative;
 }
 
 
@@ -62,10 +63,6 @@ Video Wrapper
 /*******************
 Events and Exhibit Feature
 ********************/
-
-/*************
-Section Get Involved & Rent the Museum
-*************/
 
 .container2 {
     display: flex;
@@ -76,7 +73,7 @@ Section Get Involved & Rent the Museum
     background: #000;
     color: #fff;
     box-shadow: 0px 0px 10px #111;
-    min-height: 300px;
+    /* min-height: 300px; */
 
 }
 
@@ -236,6 +233,9 @@ footer
     box-shadow: 0px 0px 10px #111;
   }
 
+  .footer-logo {
+      max-width: 15%;
+  }
 
 /*************
 footer navigation
@@ -246,7 +246,6 @@ footer navigation
       font-weight: bold;
       font-size: 2em;
       line-height: 1em;
-      color: #fff;
       letter-spacing: 1px;
       padding: 5px;
   }
@@ -258,12 +257,14 @@ footer e-mail newsletter sign up
 
 .newsletter-signup {
     margin-bottom: 3%;
+
 }
 
 form {
     max-width: 400px;
     border-radius: 5px;
   }
+
   form p {
     margin: 0 0 0.5em 0;
     position: relative;
@@ -366,12 +367,15 @@ footer social media links
 
 
 
-
-
-
 /********************
 Media Queries
 ********************/
+
+@media (max-width: 500px) {
+    .footer-logo {
+        display: none;
+    }
+}
 
 @media (min-width: 1025px) {
     .container3 {
@@ -379,7 +383,7 @@ Media Queries
     }
 
     .wrapper-video {
-        min-height: 600px;
+        min-height: 500px;
     }
 
     .exhibitFeature h2 {
@@ -387,4 +391,15 @@ Media Queries
         padding: 0 6%;
         margin: 30% 0 0;
     }
+
+    .footer {
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+      }
+
+      .footer-item1 {
+          flex: 1 300px;
+          order: -1;
+      }
+
 }
