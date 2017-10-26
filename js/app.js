@@ -17,8 +17,6 @@ $(document).ready(function(){
     });
     
 
-
-
         //E-MAIL JOIN NEWSLETTER IN FOOTER//
 
         //Hide hint

@@ -106,6 +106,7 @@ Flex container in the open toggle menu
 
 .menu_container h1 {
     font-size: 2em;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
