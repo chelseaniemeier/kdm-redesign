@@ -1,18 +1,54 @@
+/************************
+Sticky Nav
+************************/
 
-/******************
-Main Styles
-******************/
-/* 
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1em;
-} */
+.nav_sticky {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 10px;
+    z-index: 10px;
+}
 
+.nav_sticky a {
+   color: #fff;
+   text-decoration: none;
+}
 
+.nav_sticky p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.nav_sticky_item {
+    cursor: pointer;
+} 
+
+.nav_item1 {
+    max-width: 150px;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.nav_item2,
+.nav_item3,
+.nav_item4 {
+    padding: 10px;
+    align-self: stretch;
+    background-color: #3d4543;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.nav_item2:hover,
+.nav_item3:hover,
+.nav_item4:hover {
+    background-color: #0BB8DF;
+    color: #3d4543;
+    border-bottom: 1px solid #fff;
+    font-weight: bold;
+}
 
 /************************
 Hamburger Toggle Menu
@@ -155,6 +191,43 @@ Media Queries
     .menu_container h1 {
         font-size: 2.5em;
         padding: 5px;
+    }
+    
+}
+
+@media (min-width: 635px) {
+    .nav_sticky {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-right: 100px;
+        padding: 10px;
+    }
+
+    .nav_sticky a {
+        color: #000;
+        background-color: transparent;
+    }
+
+    .nav_sticky a:hover {
+        font-weight: bold;
+        /* color: #f18a20; */
+    }
+
+    .nav_item2,
+    .nav_item3,
+    .nav_item4 {
+        align-self: center;
+        background-color: transparent;
+        color: #000;
+    }
+
+    .nav_item2:hover,
+    .nav_item3:hover,
+    .nav_item4:hover {
+        background-color: transparent;
+        color: #f18a20;
+        border-bottom: 1px solid #fff;
+        font-weight: bold;
     }
     
 }
