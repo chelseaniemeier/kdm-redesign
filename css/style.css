@@ -62,7 +62,6 @@ Video Wrapper
     height: 500px;
     margin: 0 0 10px;
     padding: 10px;
-    background: #f4f7f8;
     position: relative;
     background: linear-gradient(rgba(19, 210, 244, 0.35), rgba(37, 182, 235, 0.82)),
     rgba(71, 166, 230, 0.77) url(../img/mainheader-museum.jpg) center no-repeat;
@@ -113,8 +112,6 @@ Events and Exhibit Feature
 .carousel-caption {
     text-shadow: 2px 2px 10px black;
 }
-
-
 
 .exhibitFeature { 
     flex-grow: 1;
@@ -291,6 +288,10 @@ footer navigation
       text-decoration: none;
   }
 
+  .footer-nav a:hover {
+    text-transform: uppercase;
+}
+
 
   /*************
 footer e-mail newsletter sign up
@@ -298,7 +299,6 @@ footer e-mail newsletter sign up
 
 .newsletter-signup {
     margin-bottom: 3%;
-
 }
 
 form {
@@ -322,14 +322,15 @@ form {
     outline: none
   }
   input[type="email"] {
-    background: #f5f5f5;
-    border: 1px solid #e5e5e5;
+    background: rgba(38, 152, 226, 0.09);
+    border: 1px solid #00aed9;
     font-size: 1em;
     padding: .5em .5em;
     border-radius: 5px;
   }
   input[type="email"]:focus {
-    background: #fff
+    color: #fff;
+    background: #1C1A1A;
   }
   
   span {
@@ -341,23 +342,24 @@ form {
   }
   
   input[type="submit"] {
-    background: #0BB8DF;
+    display: block;
+    background: rgba(38, 154, 226, 0.79);
     box-shadow: 0 3px 0 0 #1D3C6A;
     border-radius: 5px;
     border: none;
     color: #fff;
+    text-shadow: 0 1px #68B25B;
+    font-weight: normal;
     cursor: pointer;
-    display: block;
     font-size: 1em;
     margin: 0;
-    outline: none;
-    text-shadow: 0 1px #68B25B;
     padding: .25em;
-    font-weight: normal;
+    outline: none;
   }
 
-
-
+  input[type="submit"]:hover {
+    background: #0BB8DF;
+  } 
 
   /*************
 footer social media links
@@ -385,6 +387,10 @@ footer social media links
     color: #fff;
 }
 
+.footer a {
+    text-decoration: none;
+}
+
 /* unvisited link */
 .footer a:link {
     color: #f18a20;
@@ -406,9 +412,24 @@ footer social media links
     color: #f18a20;
 }
 
-
 .copyright {
     padding: 10px;
+}
+
+.copyright p {
+    display: inline-flex;
+    padding-left: 15px;
+}
+
+.copyright a {
+    color: #f18a20;
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
 }
 
 
@@ -454,7 +475,7 @@ Media Queries
 
       .footer-item2 {
         order: 2;
-        flex: 2
+        flex: 2;
     }
 
       .footer-item3 {
@@ -495,8 +516,37 @@ Media Queries
     }
 
     .footer-item {
-        flex: 1 300px;
+        /* flex: 1 300px; */
+    }
+}    
+
+@media (min-width: 1123px) {
+    .footer {
+        padding-left: 75px;
+    }
+    
+    .footer-item2 {
+        flex-basis: 100px;
+    }
+    
+    .footer-item3 {
+        flex-basis: 180px;
+    }
+    
+    .footer-item4 {
+        flex-basis: 300px;
+    }
+    
+
+}
+
+@media (min-width: 1270px) {
+    .footer {
+        padding: 40px 75px 30px;
     }
 
+    .footer-item2 {
+        padding-right: 10px;
+    }
 
 }

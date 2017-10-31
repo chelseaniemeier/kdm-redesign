@@ -1,8 +1,8 @@
 /************************
-Sticky Nav
+Quick Nav
 ************************/
 
-.nav_sticky {
+.nav_quick {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -10,17 +10,22 @@ Sticky Nav
     z-index: 10px;
 }
 
-.nav_sticky a {
+.nav_quick a:active {
+    font-weight: bold;
+}
+
+
+.nav_quick a {
    color: #fff;
    text-decoration: none;
 }
 
-.nav_sticky p {
+.nav_quick p {
     font-size: 1.2em;
     text-align: center;
 }
 
-.nav_sticky_item {
+.nav_quick_item {
     cursor: pointer;
 } 
 
@@ -49,6 +54,7 @@ Sticky Nav
     border-bottom: 1px solid #fff;
     font-weight: bold;
 }
+
 
 /************************
 Hamburger Toggle Menu
@@ -196,19 +202,19 @@ Media Queries
 }
 
 @media (min-width: 635px) {
-    .nav_sticky {
+    .nav_quick {
         flex-direction: row;
         flex-wrap: wrap;
         margin-right: 100px;
         padding: 10px;
     }
 
-    .nav_sticky a {
+    .nav_quick a {
         color: #000;
         background-color: transparent;
     }
 
-    .nav_sticky a:hover {
+    .nav_quick a:hover {
         font-weight: bold;
         /* color: #f18a20; */
     }
