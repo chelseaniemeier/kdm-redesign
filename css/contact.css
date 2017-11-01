@@ -1,16 +1,16 @@
-.nav_quick {
+.nav_item4 {
     display: none;
 }
 
 
 .contactMainHeader {
     width: 100%;
-    height: 300px;
+    height: 400px;
     margin: 0;
     padding: 10px;
     position: relative;
-    background: linear-gradient(rgba(19, 210, 244, 0.35), rgba(37, 182, 235, 0.82)),
-    rgba(71, 166, 230, 0.77) url(../img/mainheader-museum.jpg) center no-repeat;
+    background: linear-gradient(rgba(38, 152, 226, 0.33), rgba(38, 152, 226, 0.33)),
+    rgba(38, 152, 226, 0.33) url(../img/contact-header.jpg) center no-repeat;
     background-attachment: fixed;
     background-size: cover;
     display: flex;
@@ -23,7 +23,7 @@
     position: relative;
     width: 100%;
     text-align: center;
-    font-size: 4.5em;
+    font-size: 7em;
     padding: 20% 15%;
     color: #fff;
     font-weight: 700;
@@ -35,4 +35,9 @@
     height: 40vh;
     background: #1C1E22;
 
+}
+
+#contactMap {
+    width: 100%;
+    height: 500px;
 }
