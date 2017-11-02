@@ -1,0 +1,164 @@
+
+/***********************
+About Page - Mission Statement at the top
+***********************/
+
+.aboutMission {
+    background: #1C1E22;
+    margin: 0;
+}
+
+.aboutMission h1 {
+    color: #fff;
+    font-size: 1.5em;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.aboutMission i {
+    color: #00aed9;
+}
+
+
+/***********************
+About Header Image
+***********************/
+
+.aboutMainHeader {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    background: linear-gradient(rgba(19, 210, 244, 0.35), rgba(37, 182, 235, 0.82)),
+    rgba(71, 166, 230, 0.77) url(../img/about-header.jpg) center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.aboutMainHeader h1 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    padding: 20% 15%;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/***********************
+About the Museum information
+***********************/
+
+.aboutContent {
+    background: linear-gradient(rgba(224, 219, 219, 0.87), rgba(228, 216, 210, 0.658)),
+    rgba(224, 219, 219, 0.87) url(../img/about-contentbackground.jpg) center no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    padding: 10%;
+}
+
+.aboutContent p {
+    color: #000;
+    padding-bottom: 10px;
+    line-height: 1.3em;
+}
+
+.aboutContent a {
+    color: #000;
+    text-decoration: none;
+}
+
+.aboutContent a:hover {
+    background: #fff;
+}
+
+
+/***********************
+MEDIA QUERIES
+***********************/
+
+@media (min-width: 700px) {
+    .aboutMainHeader {
+        height: 300px;
+    }
+
+    .aboutContent {
+        padding: 5% 10%;
+    }
+    
+    .aboutContent p {
+        padding-bottom: 12px;
+        line-height: 1.4em;
+    }
+}
+
+@media (min-width: 908px) {
+    .aboutMission h1 {
+        font-size: 2.3em;
+        padding: 5%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .aboutMission h1 {
+        font-size: 2.5em;
+        padding: 40px 60px;
+    }
+    
+    .aboutMainHeader {
+        height: 350px;
+    }
+
+    .aboutMainHeader h1 {
+        font-size: 4.5em;
+    }
+}
+
+@media (min-width: 1025px) {
+    .aboutMission h1 {
+        padding: 5% 15%;
+    }
+}
+
+@media (min-width: 1300px) {
+    .aboutMainHeader {
+        height: 400px;
+    }
+    
+    .aboutContent {
+        padding: 5% 15%;
+    }
+    
+    .aboutContent p {
+        padding-bottom: 12px;
+        line-height: 1.5em;
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 1550px) {
+
+    .aboutMainHeader h1 {
+        font-size: 5em;
+    }
+
+    .aboutMission h1 {
+        padding: 5% 20%;
+    }
+    
+    .aboutContent {
+        padding: 5% 16%;
+    }
+    
+    .aboutContent p {
+        padding-bottom: 18px;
+        line-height: 1.5em;
+    }
+}

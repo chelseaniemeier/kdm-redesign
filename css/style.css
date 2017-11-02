@@ -53,7 +53,7 @@ Can be found in nav.css
 
 
 /****************
-Video Wrapper
+Hero Image on Homepage Wrapper
 *****************/
 
 .wrapperMainHeader {
@@ -83,10 +83,7 @@ Video Wrapper
     text-transform: uppercase;
 }
 
-/* .wrapperMainHeader h1::selection {
-    color: #f18a20;
-    background: #000;
-  } */
+
 
 /*******************
 Events and Exhibit Feature

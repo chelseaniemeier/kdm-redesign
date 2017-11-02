@@ -1,9 +1,8 @@
 
+//HAMBURGER MENU -- TOGGLE//
 
 $(document).ready(function(){
     
-        //HAMBURGER MENU -- TOGGLE//
-
         $('.menu_exit').click(function(){
             $('.sidebar_menu').removeClass("show_menu");
             $('.toggle_menu').addClass("opacity_one").removeClass("toggle_menu_zindex-change");
@@ -14,9 +13,10 @@ $(document).ready(function(){
             $('.toggle_menu').removeClass("opacity_one").addClass("toggle_menu_zindex-change");
         });
     
-    });
+ });
     
 
+ 
 //E-MAIL JOIN NEWSLETTER IN FOOTER//
 
 //Hide hint
@@ -31,14 +31,14 @@ function validateForm() {
     } 
 }
 
-//When hint shows, and they retry to add email, hide hide again
+//When hint shows, and they retry to add email, hide again
 $("#email").focus(function(){
     $("form span").hide();
 })
 
 
 
-//Google Map//
+//Google Map on Contact Page//
 
 function myMap() {
     var mapOptions = {
