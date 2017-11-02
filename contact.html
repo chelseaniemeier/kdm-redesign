@@ -22,9 +22,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     
-
-    
-
     <!-- Insert Style Sheets Here-->
     <link type="text/css" rel="stylesheet" href="css/normalize.css" />
     <link type="text/css" rel="stylesheet" href="css/style.css" />
@@ -33,8 +30,6 @@
 
     <!-- Insert Google Fonts Here -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700" rel="stylesheet">
-
-   
     
 </head>
 
@@ -50,8 +45,8 @@
         <div class="menu_container">
             <div class="menu_1 menu_item"><h1>Plan a Visit</h1></div>
             <div class="menu_2 menu_item"><h1>Rent the Museum</h1></div>
-            <div class="menu_3 menu_item"><h1>Shop Online</h1></div>
-            <div class="menu_4 menu_item"><h1>Contact Form</h1></div>
+            <div class="menu_3 menu_item"><a href="https://derbymuseumstore.com/" target="_blank"><h1>Shop Online</h1></a></div>
+            <div class="menu_4 menu_item"><a href="contact.html"><h1>Contact Form</h1></a></div>
             <div class="menu_5 menu_item">
                     <p><a href="https://goo.gl/maps/Q5LRkqaV4A62" target="_blank">704 Central Avenue<br>
                         Louisville, KY 40208<br></a>
@@ -84,8 +79,6 @@
 
 <!-- /Header -->
 
-
-
 <!--Contact page feature image-->
 
     <div class="contactMainHeader">
@@ -95,17 +88,47 @@
 <!--End of Contact page feature image-->
 
 <!--Contact information-->
-<div class="contactInfo">
-        
-            </div>
-        <!--End of Contact information-->
+    <div class="contactInfo">
+        <div class="contactForm contactInfoitem">
+            <form action="#">
+                <label for="fname">First & Last Name</label>
+                <input type="text" id="fname" name="name" placeholder="Your name..">
+            
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+            
+                <label for="subject">Topic/Subject Matter</label>
+                <select id="contactSubject" name="subject">
+                    <option value="Subject">Choose subject..</option>
+                    <option value="Tours">Tours</option>
+                    <option value="Membership">Membership</option>
+                    <option value="Museum Rental">Museum Rental</option>
+                </select>
+
+                <label for="subject">Comments</label>
+                <textarea id="subject" name="subject" placeholder="Write your question.."></textarea>
+            
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="contactGeneral contactInfoitem">
+            <h3>704 Central Avenue, <br>Louisville, KY 40208</h3>
+            <h3>Reach Out By Phone</h3>
+            <p>Main: (502) 637-1111</p>
+            <p>Derby Caf&eacute;: (502) 637-1111 ext. 244</p>
+            <h3>Museum Hours</h3>
+            <p>Monday - Saturday 8 a.m. - 5 p.m. EST</p>
+            <p>Sunday 11 a.m. - 5 p.m. EST</p>
+            <h3>Donation Requests</h3>
+            <p><a href="https://www.derbymuseum.org/res/uploads/media//Requesting-Donations-form.pdf" target="_blank">Request a donation for your charity <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
+        </div>
+    </div>
+<!--End of Contact information-->
 
 
 <!--Museum Map-->
 
-    <div id="contactMap">
-					<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3135.190573665484!2d-85.77087900000001!3d38.205472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886912839a09bf95%3A0xfea6fa9f5ff6e759!2sKentucky+Derby+Museum!5e0!3m2!1sen!2sus!4v1426607095385" frameborder="0"></iframe> -->
-				
+    <div id="contactMap">	
 	</div>
 
 <!--End Map-->
@@ -119,15 +142,15 @@
         <footer class="footer">
 
             <div class="footer-logo footer-item footer-item1"> 
-            <a href="#">
-                <img src="img/logo-kdmvertical.png" alt="Kentucky Derby Museum Logo">
+            <a href="index.html">
+                <img src="img/logo-kdmvertical-white.png" alt="Kentucky Derby Museum Logo">
             </a> 
             </div>
 
             <div class="footer-nav footer-item footer-item2">
                 <ul>
                     <li><a href="#">Plan Visit</a></li>
-                    <li><a href="https://derbymuseumstore.com/">Shop</a></li>
+                    <li><a href="https://derbymuseumstore.com/" target="_blank">Shop</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>

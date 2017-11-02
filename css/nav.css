@@ -77,7 +77,6 @@ Hamburger Toggle Menu
 .toggle_menu:hover {
     /* border: 2px solid #f17a00; */
     background-color: #f17a00;
-    /* opacity: .8; */
 }
 
 .toggle_menu_zindex-change {
@@ -163,12 +162,22 @@ Flex container in the open toggle menu
     text-align: center;
 }
 
+.menu_item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu_item a:hover {
+    color: #fff;
+}
+
 .menu_1:hover,
 .menu_2:hover,
 .menu_3:hover,
 .menu_4:hover {
     opacity: .7;
     cursor: pointer;
+    color: #000;
 }
 
 .menu_5 a,
@@ -200,7 +209,7 @@ Media Queries
     .menu_2:hover,
     .menu_3:hover,
     .menu_4:hover {
-        background-color: #fff;
+        background-color: #0BB8DF;
         color: #111;
     }
 
