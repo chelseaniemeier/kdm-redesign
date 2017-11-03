@@ -1,0 +1,50 @@
+
+caption {
+    font-size: .75em;
+    padding: 0 15px;
+}
+
+
+.planvisitExperience {
+    padding: 0px 20px;
+}
+ 
+.planvisitExperience h3 {
+        padding: 10px 0;
+        font-size: 1.5em;
+        color: #f18a20;
+}
+    
+.planvisitExperience p {
+        padding-bottom: 10px;
+}
+
+
+.planvisitGeneral {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.card-deck {
+    margin: 0 20px;
+}
+
+
+/***************************
+MEDIA QUERIES
+***************************/
+
+@media (min-width: 600px) {
+    
+    .planvisitGeneral {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .planvisititem {
+        flex: 1 300px;
+        padding: 0 15px;
+    }
+}
