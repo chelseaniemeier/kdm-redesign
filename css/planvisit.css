@@ -4,6 +4,9 @@ caption {
     padding: 0 15px;
 }
 
+#subPlan {
+    margin: 10px 0;
+}
 
 .planvisitExperience {
     padding: 0px 35px;
@@ -18,6 +21,15 @@ caption {
     
 .planvisitExperience p {
         padding-bottom: 10px;
+}
+
+.planvisitExperience a {
+    color: #000;
+    text-decoration: none;
+}
+
+.planvisitExperience a:hover {
+    color: #fff;
 }
 
 
@@ -75,7 +87,7 @@ MEDIA QUERIES
 ***************************/
 
 @media (min-width: 600px) {
-    
+
     .planvisitGeneral {
         display: flex;
         flex-direction: row;
@@ -85,5 +97,19 @@ MEDIA QUERIES
     .planvisititem {
         flex: 1 300px;
         padding: 0 15px;
+    }
+}
+
+
+@media (min-width: 900px) {
+    #subPlan {
+        margin: 10px 50px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    #subPlan {
+        margin: 20px 150px;
     }
 }

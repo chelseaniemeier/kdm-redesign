@@ -1,0 +1,203 @@
+
+
+
+/***************************
+Rent the Museum Header Image
+***************************/
+
+.rentMainHeader {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    background: linear-gradient(rgba(38, 152, 226, 0.33), rgba(38, 152, 226, 0.33)),
+    rgba(38, 152, 226, 0.33) url(../img/rentmuseum-header.jpg) center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.rentMainHeader h1 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    padding: 20% 15%;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/**************************
+General Rental Info
+*************************/
+
+.rentalInfo {
+    width: 100%;
+    background: #1C1E22;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: stretch;
+    padding:15px 15px 25px;
+}
+
+.rentalInfoitem {
+    flex: 1 300px;
+}
+
+
+.rentalGeneral {
+    color: #fff;
+    padding: 15px;
+}
+
+.rentalGeneral ul {
+    list-style-type: disc;
+}
+
+.rentalGeneral h3 {
+    padding: 20px 0;
+    font-size: 1.5em;
+    color: #f18a20;
+}
+
+.rentalGeneral p {
+    padding-bottom: 10px;
+}
+
+.rentalGeneral a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.rentalGeneral a:hover {
+    color: #00aed9;
+    text-decoration: none;
+}
+
+.rentalGeneral hr {
+    height: 1px;
+    color: #fff;
+    background-color: #fff;
+    border: none;
+}
+
+
+/***************************
+Request Rental Form 
+***************************/
+
+.rentalForm {
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.rentalForm label {
+    color: #f18a20;
+    padding-top: 15px;
+    font-size: 1.2em;
+}
+
+.rentalForm textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.rentalForm input[type=text], select, textarea {
+
+    background: rgba(38, 152, 226, 0.09);
+    border: 1px solid #00aed9;
+    font-size: 1em;
+    padding: .5em .5em;
+    border-radius: 5px;
+   width: 100%;
+   color: #fff;   
+}
+
+
+.rentalForm input[type=submit] {
+    display: block;
+    background: rgba(38, 154, 226, 0.79);
+    box-shadow: 0 3px 0 0 #1D3C6A;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    text-shadow: 0 1px #68B25B;
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0;
+    padding: .25em;
+    outline: none;
+}
+
+.rentalForm input[type=submit]:hover {
+    background-color: #0BB8DF;
+}
+
+
+/**************************
+Rental Spaces
+**************************/
+
+.card-text {
+    padding: 5px 0;
+}
+
+.rentalSpace {
+    background: #1e2530;
+}
+
+.card-deck {
+    margin: 0 20px 40px;
+}
+
+
+/*************************
+Media Queries
+*************************/
+
+
+@media (min-width: 750px) {
+    .rentalInfo {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 10%;
+    }
+}
+
+@media (min-width: 1025px) {
+
+    .rentMainHeader {
+        height: 350px;
+    }
+
+    .rentalInfo {
+        padding-left: 15%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .rentalInfo {
+        padding-left: 8%;
+    }
+
+    .rentalInfoitem {
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 2010px) {
+
+    .rentalInfoitem {
+        max-width: 600px;
+    }
+}
+
