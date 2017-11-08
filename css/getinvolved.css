@@ -57,7 +57,7 @@ Get Involved
     background: #212529;
     color: #fff;
     height: 275px;
-    padding: 15%;
+    padding: 15% 15% 20%;
 }
 
 .getinvolvedSignupitem {
@@ -68,11 +68,11 @@ Get Involved
 
 .getinvolvedSignupitem h2 {
     margin: 0;
+    padding-bottom: 5%;
 }
 
 .getinvolvedSignupitem h3 {
     margin: 0;
-    padding-top: 5%;
 }
 
 /*************************
