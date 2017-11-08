@@ -33,18 +33,19 @@ Rent the Museum Header Image
 }
 
 
+
 /**************************
 General Rental Info
 *************************/
 
 .rentalInfo {
     width: 100%;
-    background: #1C1E22;
+    background: #1e2530;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: stretch;
-    padding:15px 15px 25px;
+    padding:15px 15px 30px;
 }
 
 .rentalInfoitem {
@@ -143,21 +144,44 @@ Request Rental Form
 }
 
 
+
 /**************************
 Rental Spaces
 **************************/
 
-.card-text {
-    padding: 5px 0;
+.rentalSpaceBkgd {
+    background: #1C1E22;
 }
 
 .rentalSpace {
-    background: #1e2530;
+    
+    display: flex;
+    flex-direction: column;
+    margin: 25px 15px 15px;
+    justify-content: center;
 }
 
-.card-deck {
-    margin: 0 20px 40px;
+.rentalSpace img {
+    margin: 0;
+    width: 100%;
+    object-fit: cover;
 }
+
+.rentalSpace h3 {
+    color: #f18a20;
+    padding: 10px 0;
+    font-size: 1.5em;
+}
+
+.rentalSpace p {
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.rentalSpaceitem p:last-child {
+    padding-bottom: 25px;
+}
+
 
 
 /*************************
@@ -169,8 +193,26 @@ Media Queries
     .rentalInfo {
         flex-direction: row;
         flex-wrap: wrap;
-        padding-left: 10%;
+        padding: 0 4%;
     }
+
+    .rentalSpace {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 30px 40px;
+    }
+
+    .rentalSpace img {
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+
+    .rentalSpaceitem {
+        flex: 1 40%;
+        align-self: center;
+    }
+
+   
 }
 
 @media (min-width: 1025px) {
@@ -180,7 +222,15 @@ Media Queries
     }
 
     .rentalInfo {
-        padding-left: 15%;
+        padding: 3% 10%;
+    }
+
+    .rentalSpace {
+        margin: 40px 10%;
+    }
+
+    .rentalSpace img {
+        padding-right: 25px;
     }
 }
 
@@ -192,12 +242,24 @@ Media Queries
     .rentalInfoitem {
         max-width: 500px;
     }
+
+    .rentalSpace {
+        margin: 40px 15%;
+    }
+
+    .rentalSpace img {
+        padding: 30px 25px 30px 0;
+    }
 }
 
 @media (min-width: 2010px) {
 
     .rentalInfoitem {
         max-width: 600px;
+    }
+
+    .rentalSpace {
+        margin: 40px 20%;
     }
 }
 
