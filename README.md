@@ -16,7 +16,7 @@ Features:
 I used Javascript in three places: 1) the toggle hamburger menu in the top right, 2) the e-newsletter signup located in the footer [if the user tries to submit, but leaves the input area blank, a hint appears that says to enter the email address, and it will disappear again once clicked in the field input field], and 3) the google map on the contact.html page. 
 
 Installation:
-All you need to do is download the kdm-redesign repository to your computer, where it will include on the files you needs for it to run properly. 
+All you need to do is download the kdm-redesign repository to your computer, where it will include on the files you needs for it to run properly. Once downloaded, open index.html on your desired browser.
 
 Be aware of live external links:
 In my redesign project, there are a couple places where I link to actual live links to the Museum's ticket sale site/store site. I did not build those sites, but included them to give my redesign a better flow so that my "shop online" and "purchase tickets" buttons went somewhere instead of not opening anything. For example, for my "shop online" links, I linked to the live https://derbymuseumstore.com/ page.
