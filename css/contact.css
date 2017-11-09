@@ -2,8 +2,8 @@
 Navigation
 ***************************/
 
-.nav_item4 {
-    display: none;
+.active {
+    font-weight: bold;
 }
 
 
