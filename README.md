@@ -27,7 +27,7 @@ Authors:
 Chelsea Niemeier
 
 Acknowledgments:
-Bootstrap contributed the sliding carousel on the index.html page, and the 'cards' used for the tours on the planvisit.html page.  
+Bootstrap contributed the sliding carousel on the index.html page, and the 'cards' & tables used on the planvisit.html page.  
 
 
 
