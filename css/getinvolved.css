@@ -138,6 +138,11 @@ Media Queries
         margin: 5%;
     }
 
+    .getinvolvedinfo p {
+        padding-bottom: 10px;
+        line-height: 1.5em;
+    }
+
     .getinvolveditem:first-child {
        padding-right: 20px;
     }
@@ -147,13 +152,42 @@ Media Queries
     .getinvolvedMainHeader {
         height: 350px;
     }
+
+    .getinvolvedMainHeader h1 {
+        font-size: 4.5em;
+    }
+}
+
+@media (min-width: 1350px) {
+   .getinvolvedSignup {
+    padding: 7% 15%;
+    max-height: 200;
+   }
+   .getinvolvedSignupitem h2 {
+    padding-bottom: 2%;
+    }
+    .getinvolveditem:first-child {
+        padding-right: 50px;
+     }
 }
 
 @media (min-width: 1500px) {
-   
+    .getinvolvedSignup {
+        padding: 5% 15% 7%;
+        max-height: 200;
+       }
+    .getinvolvedinfo {
+        margin: 5% 8%;
+    }
 }
 
 @media (min-width: 2010px) {
+    .getinvolvedSignupitem h2 {
+        padding-bottom: 1%;
+    }
 
+    .getinvolvedSignup {
+        padding: 4% 15% 7%;
+    }
 }
 
